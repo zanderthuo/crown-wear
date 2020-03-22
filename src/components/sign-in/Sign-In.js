@@ -9,7 +9,7 @@ import { auth, signInWithGoogle } from '../../firebase/firebase.utlils'
 
 export default class SignIn extends Component {
     constructor(props) {
-        super(props)
+        super(props) 
     
         this.state = {
             email:'',
